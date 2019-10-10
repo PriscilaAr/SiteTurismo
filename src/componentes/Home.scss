@@ -4,13 +4,36 @@
       background-size: cover;
       background-position: center;
       width: 100%;
-      height: 500px;
+      height: 550px;
+      display: flex;
+      h1{
+        color:rgb(9, 83, 126);
+        width: 40%;
+        padding: 190pt 0 0 50pt;
+        font-size: 30pt;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      span{
+        color: rgba(255, 0, 0, 0.836);
+      }
     }
     div {
       width: 100%;
-      height: 150px;
+      height: 62px;
       display: flex;
       align-items: center;
       justify-content: center;
+      background-color: rgba(74, 170, 226, 0.445);;
+    }
+    button{
+      font-weight: bold;
+      background-color: rgba(255, 0, 0, 0.836);
+      border: none;
+      border-radius: 10pt;
+      color: white;
+      height: 35px;
+      width: 120px;
+      font-size: 12pt;
+      cursor: pointer;
     }
   }

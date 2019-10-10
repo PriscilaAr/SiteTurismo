@@ -5,13 +5,14 @@
       margin-bottom: 10px;
     }
     input {
+      font-size: 13pt;
       border: none;
-      width: 200px;
-      height: 30px;
+      width: 210px;
+      height: 40px;
       border: 1px solid black;
       border-radius: 10px;
       padding: 0 10px;
-      color: rgb(26, 88, 68);
+      color: rgba(255, 0, 0, 0.836);
       outline: none;
       margin-bottom: 30px;
       &::placeholder {
