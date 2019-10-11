@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Navbar from './componentes/Navbar';
 import Precos from './componentes/Precos';
 import PontosTuristicos from './componentes/PontosTuristicos';
-import Hoteis from './componentes/Hoteis';
+import PacotesDeViagem from './componentes/PacotesDeViagem';
 import Cadastro from './componentes/Cadastro';
 import Home from './componentes/Home';
 
@@ -12,9 +12,9 @@ const App = () => {
     <Router>
       <Navbar />
       <Route exact path="/" component={Home} />
-      <Route path="/precos" coomponent={Precos} />
+      <Route path="/precos" component={Precos} />
       <Route path="/PontosTuristicos" component={PontosTuristicos} />
-      <Route path="/hoteis" coomponent={Hoteis} />
+      <Route path="/PacotesDeViagem" component={PacotesDeViagem} />
       <Route path="/cadastro" component={Cadastro} />
     </Router>
   )
