@@ -10,15 +10,27 @@ const PacotesDeViagem = () => {
         <div className="PacotesDeViagem">
             <h1>Sugestões dos melhores lugares</h1>
             <div className="todosasfotos">
-                <div className="Foto1"></div>
-                <div className="Foto2"></div>
+                <div>
+                    <span className="Foto1"></span>
+                    <h1>Gramado</h1>
+                </div> 
+                <div>
+                    <span className="Foto2"></span>
+                    <h1>Cantinho do paraíso - Bahia</h1>
+                </div>
             </div>
+                
                 <div className="divisao"></div>
+
             <div className="todasasfotos2">
-                <div className="Foto3"></div>
-                <div className="Foto4"></div>
+                <span className="Foto3"></span>
+                <h1>Caribe</h1>
+                <span className="Foto4"></span>
+                <h1>Prainha do Portugues</h1>
             </div>
+                
                 <div className="divisao2"></div>
+
             <div className="todasasfotos3">
                 <div className="Foto5"></div>
                 <div className="Foto6"></div>

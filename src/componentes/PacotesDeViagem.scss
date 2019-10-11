@@ -11,12 +11,16 @@
         justify-content: space-around;
         flex-direction: column;
     }
-    .Foto1{
-        width: 300px;
-        height: 250px;
-        background-image: url(./Imagens/Gramado-natal-luz-03.png);
-        margin: 10px 0 0 30px;
-        background-size: cover;
+    div{
+        display: flex;
+        justify-content: space-around;
+        .Foto1{
+            width: 300px;
+            height: 250px;
+            background-image: url(./Imagens/Gramado-natal-luz-03.png);
+            margin: 10px 0 0 30px;
+            background-size: cover;
+        }
     }
     .Foto2{
         width: 300px;

@@ -17,7 +17,7 @@ const Navbar = () => {
       <nav>
       <div className="desktop">
         <Link onClick={FecharMenu} to='/'> Home</Link>
-        <Link onClick={FecharMenu} to="/PacotesDeViagem"> Pacotes De Viagem</Link>
+        <Link onClick={FecharMenu} to="/PacotesDeViagem">Pacotes De Viagem</Link>
         <Link onClick={FecharMenu} to="/PontosTuristicos">Pontos Turisticos</Link>
       
       </div>

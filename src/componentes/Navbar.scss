@@ -12,8 +12,11 @@
       align-items: center;
       justify-content: space-around;
       font-size: 17pt;
-      cursor: pointer;
-      color: white;
+      a{
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+      }
       
       @media(min-width: 768px){
         display: flex;
@@ -49,6 +52,11 @@
     position: absolute;
     top: 70px;
     left: 0;
+    a{
+      color: white;
+      cursor: pointer;
+      text-decoration: none;
+    }
     @media(min-width: 768px){
       display: none;
     }
